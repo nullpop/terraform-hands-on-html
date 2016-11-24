@@ -3,7 +3,7 @@ test:
     - exit 0
 deployment:
   staging:
-    branch: master
+    branch: circleci_test
     codedeploy:
       DemoApplication:
         application_root: /
