@@ -12,6 +12,6 @@ deployment:
           revision_type: S3
           s3_location:
             bucket: sakai-app
-            key_pattern: DemoApplication-{BRANCH}-{SHORT_COMMIT}
+            key_pattern: app/DemoApplication-{BRANCH}-{SHORT_COMMIT}
         deployment_group: DemoFleet
         deployment_config: CodeDeployDefault.AllAtOnce
